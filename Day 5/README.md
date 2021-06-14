@@ -1,4 +1,4 @@
-<h3> Task - Splash Activity With Music </h3>
+<h3> Task - Splash Activity </h3>
 
 <p> output </p>
 
