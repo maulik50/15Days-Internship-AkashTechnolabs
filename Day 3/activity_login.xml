@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".LoginActivity">
+
+       <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+           <RelativeLayout
+               android:layout_width="match_parent"
+               android:layout_height="match_parent">
+
+               <EditText
+                   android:id="@+id/login_mail"
+                   android:inputType="textEmailAddress"
+                   android:hint="Enter Email Id"
+                   android:padding="10dp"
+                   android:background="@drawable/custom_border"
+                   android:layout_marginHorizontal="20dp"
+                   android:layout_marginTop="120dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"/>
+
+               <EditText
+                   android:id="@+id/login_password"
+                   android:inputType="textPassword"
+                   android:hint="Enter Password"
+                   android:padding="10dp"
+                   android:background="@drawable/custom_border"
+                   android:layout_marginHorizontal="20dp"
+                   android:layout_below="@+id/login_mail"
+                   android:layout_marginTop="15dp"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"/>
+
+               <Button
+                   android:id="@+id/login_btn"
+                   android:text="Login"
+                   android:background="@drawable/custom_button"
+                   app:backgroundTint="@null"
+                   android:layout_marginTop="15dp"
+                   android:layout_centerHorizontal="true"
+                   android:layout_below="@+id/login_password"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"/>
+
+               <TextView
+                   android:id="@+id/create_new_account"
+                   android:layout_centerHorizontal="true"
+                   android:fontFamily="@font/opensans_bold"
+                   android:textColor="@color/green"
+                   android:textSize="30dp"
+                   android:text="Create New Account"
+                   android:layout_marginTop="180dp"
+                   android:layout_below="@+id/login_btn"
+                   android:layout_width="wrap_content"
+                   android:layout_height="match_parent"/>
+
+           </RelativeLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
