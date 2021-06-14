@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".SignupActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/welcome_txt"
+                android:textSize="46dp"
+                android:fontFamily="@font/sigmarone_regular"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/green"
+                android:text="Welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:id="@+id/signup_name"
+                android:inputType="text"
+                android:hint="Name"
+                android:padding="10dp"
+                android:background="@drawable/custom_border"
+                android:layout_below="@+id/welcome_txt"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/signup_mail"
+                android:inputType="textEmailAddress"
+                android:hint="Email Id"
+                android:padding="10dp"
+                android:background="@drawable/custom_border"
+                android:layout_below="@+id/signup_name"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/signup_mobile"
+                android:inputType="phone"
+                android:hint="Contact Number"
+                android:padding="10dp"
+                android:background="@drawable/custom_border"
+                android:layout_below="@+id/signup_mail"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <EditText
+                android:id="@+id/signup_password"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:padding="10dp"
+                android:background="@drawable/custom_border"
+                android:layout_below="@+id/signup_mobile"
+                android:layout_marginTop="10dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <Button
+                android:id="@+id/signup_btn"
+                android:background="@drawable/custom_button"
+                app:backgroundTint="@null"
+                android:text="Signup"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/signup_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/alredy_account"
+                android:fontFamily="@font/opensans_bold"
+                android:textColor="@color/green"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="90dp"
+                android:layout_centerHorizontal="true"
+                android:textSize="30dp"
+                android:layout_below="@+id/signup_btn"
+                android:text="Already Have Account"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
