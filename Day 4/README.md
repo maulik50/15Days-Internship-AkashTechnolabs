@@ -2,5 +2,6 @@
 
 <h2> Output </h2>
 
-![Screenshot_20210602-201158](https://user-images.githubusercontent.com/72292968/120501714-76038e80-c3df-11eb-95fb-691379afc546.png)
+![signup page](https://user-images.githubusercontent.com/72292968/121932294-5a46a380-cd62-11eb-90ba-8eaca130442e.jpg)
+
 
