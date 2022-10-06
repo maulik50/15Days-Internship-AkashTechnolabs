@@ -24,22 +24,6 @@
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-            <TextView
-                android:id="@+id/custom_product_name"
-                style="@style/bold_20_textview"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="3dp" />
-
-            <TextView
-                android:id="@+id/custom_product_price"
-                style="@style/bold_16_textview"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center"
-                android:padding="3dp" />
-
         </LinearLayout>
 
     </LinearLayout>
